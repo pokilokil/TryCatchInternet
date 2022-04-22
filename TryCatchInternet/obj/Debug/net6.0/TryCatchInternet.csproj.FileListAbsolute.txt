@@ -1,0 +1,15 @@
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\bin\Debug\net6.0\TryCatchInternet.exe
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\bin\Debug\net6.0\TryCatchInternet.deps.json
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\bin\Debug\net6.0\TryCatchInternet.runtimeconfig.json
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\bin\Debug\net6.0\TryCatchInternet.dll
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\bin\Debug\net6.0\TryCatchInternet.pdb
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.csproj.AssemblyReference.cache
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.AssemblyInfoInputs.cache
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.AssemblyInfo.cs
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.dll
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\refint\TryCatchInternet.dll
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.pdb
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\TryCatchInternet.genruntimeconfig.cache
+C:\Users\OMEN\source\repos\TryCatchInternet\TryCatchInternet\obj\Debug\net6.0\ref\TryCatchInternet.dll
