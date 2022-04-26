@@ -39,6 +39,7 @@ namespace Lesson2
                 //читаем ответ в строку
                 string line = strReader.ReadToEnd();
                 //нужно закрыть соединение
+                //void Close. это процедура. она закрывает наш респонс. никакого результа не возвращает.
                 response.Close();
                 //теперь есть строка line. надо в ней найти курс Доллара
                 //строка - массив символов (есть длина, есть поиск, есть цикл for по массиву..)
@@ -54,15 +55,44 @@ namespace Lesson2
             }
             catch (Exception ex)
             {
-                string text = "Что-то пошло не так";
+                Save(ex);
+                bool ok = SaveF(ex);
+                Console.WriteLine("file " + ok);
+            }
+            Console.ReadKey();
+        }
+        static void Save(Exception ex)
+        {
+            string text = "Что-то пошло не так";
+            using (StreamWriter sw = File.AppendText("log.txt"))
+            {
+                sw.WriteLine(text);
+                sw.WriteLine(ex.StackTrace, ex.Source, ex.Message);
+            }
+            Console.WriteLine(text);
+        }
+        static bool SaveF(Exception ex)
+        {
+            bool okFile = false;
+            string text = "Что-то пошло не так";
+            try
+            {
+
+           
                 using (StreamWriter sw = File.AppendText("log.txt"))
                 {
                     sw.WriteLine(text);
                     sw.WriteLine(ex.StackTrace, ex.Source, ex.Message);
+                    okFile = true; 
                 }
-                Console.WriteLine(text);
             }
-            Console.ReadKey();
+            catch (Exception)
+            {
+
+                okFile = false;
+            }
+            Console.WriteLine(text);
+            return okFile;
         }
     }
 }
